@@ -1,0 +1,50 @@
+{
+  "root": true,
+  "extends": "standard",
+  "globals": {
+    "$": true,
+    "TweenMax": true,
+    "TimelineMax": true,
+    "ad": true,
+    "mraid": true,
+    "AdChoices": true,
+    "Power0": true,
+    "Power1": true,
+    "_switchScene": true,
+    "UndertoneMark": true
+  },
+  "rules": {
+    "no-console": [
+      "error",
+      {
+        "allow": [
+          "warn",
+          "error",
+          "log"
+        ]
+      }
+    ],
+    "no-multi-spaces": [
+      "error",
+      {
+        "exceptions": {
+          "VariableDeclarator": true,
+          "VariableDeclaration": true,
+          "AssignmentExpression": true
+        }
+      }
+    ]
+  },
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module"
+  }
+}

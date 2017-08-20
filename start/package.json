@@ -1,0 +1,68 @@
+{
+  "name": "sparkflow_boilerplates",
+  "version": "0.1.0",
+  "description": "Sparkflow formats boilerplates.",
+  "main": "js.js",
+  "scripts": {
+    "postinstall": "mv node_modules/retyped-greensock-tsd-ambient/greensock.d.ts node_modules/@types/gsap/index.d.ts && rm -rf node_modules/retyped-greensock-tsd-ambient/",
+    "babel": "./node_modules/.bin/babel --watch ./*.es6 -o ./compiled.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slipnox/sparkflow_snippets.git"
+  },
+  "keywords": [
+    "sparkflow",
+    "formarts",
+    "boilerplate"
+  ],
+  "author": "Abrahan Silverio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/slipnox/sparkflow_snippets/issues"
+  },
+  "homepage": "https://github.com/slipnox/sparkflow_snippets#readme",
+  "devDependencies": {
+    "@types/gsap": "*",
+    "@types/jquery": "*",
+    "babel-cli": "*",
+    "babel-eslint": "*",
+    "babel-polyfill": "*",
+    "babel-preset-env": "*",
+    "babel-preset-es2015": "*",
+    "eslint-config-standard": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-node": "*",
+    "eslint-plugin-promise": "*",
+    "retyped-greensock-tsd-ambient": "*",
+    "standard": "*",
+    "typescript": "*"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "globals": [
+      "$",
+      "TweenMax",
+      "TimelineMax",
+      "ad",
+      "mraid",
+      "AdChoices",
+      "Power3",
+      "Power0",
+      "Power1",
+      "_switchScene",
+      "UndertoneMark",
+      "requestAnimationFrame",
+      "cancelAnimationFrame"
+    ],
+    "ignore": [
+      "compiled.js",
+      "node_modules/**"
+    ]
+  }
+}
