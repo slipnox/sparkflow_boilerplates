@@ -1,3 +1,9 @@
+Sparkflow AdChoises
+/sparkflow/formats/latest/adchoices.min.js
+
+Sparkflow Undertonemark
+/sparkflow/formats/latest/utmark.min.js
+
 Sparkflow Motion Events
 /sparkflow/formats/latest/motionevents.min.js
 
