@@ -1,0 +1,25 @@
+Sparkflow Motion Events
+/sparkflow/formats/latest/motionevents.min.js
+
+DeviceJS - add conditional CSS and/or JavaScript based on device operating system
+https://cdnjs.cloudflare.com/ajax/libs/device.js/0.2.7/device.min.js
+
+Greensock and Greensock Plugins
+https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js
+https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/jquery.gsap.min.js
+https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/utils/Draggable.min.js
+https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/plugins/ScrollToPlugin.min.js
+https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/plugins/PixiPlugin.min.js
+https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/plugins/ModifiersPlugin.min.js
+https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/plugins/ColorPropsPlugin.min.js
+https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/plugins/CSSRulePlugin.min.js
+https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/plugins/EaselPlugin.min.js
+https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/plugins/TextPlugin.min.js
+
+Swiper - modern mobile touch slider with hardware accelerated transitions
+https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.x.x/css/swiper.css
+https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.x.x/css/swiper.min.css
+https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.x.x/js/swiper.js
+https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.x.x/js/swiper.min.js
+https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.x.x/js/swiper.jquery.js
+https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.x.x/js/swiper.jquery.min.js
